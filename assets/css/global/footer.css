@@ -1,0 +1,7 @@
+/* footer.css */
+
+.footer-color {
+    background: #000;
+    box-shadow: 0 100vh 0 100vh #000;
+    color: #CCC;
+}
