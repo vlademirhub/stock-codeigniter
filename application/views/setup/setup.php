@@ -6,6 +6,9 @@
             <div class="card p-4 text-center">
                 <h3>SETUP</h3>
                 <div class="text-center m-2">
+                    <a href="<?= site_url('dashboard'); ?>" class="btn btn-warning">Dashboard</a>
+                </div>
+                <div class="text-center m-2">
                     <a href="<?= site_url('geral/resetdatabase'); ?>" class="btn btn-primary">Reiniciar</a>
                 </div>
 
@@ -18,7 +21,7 @@
                 </div>
 
                 <div class="text-center m-2">
-                    <a href="<?= site_url('geral'); ?>" class="btn btn-primary">Voltar</a>
+                    <a href="<?= site_url('geral/logout'); ?>" class="btn btn-primary">Sair</a>
                 </div>
             </div>
         </div>

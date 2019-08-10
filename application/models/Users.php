@@ -33,7 +33,7 @@ class Users extends CI_Model
         $userData = $result->row(); # Get user data
 
         $this->session->set_userdata('userId', $userData->id);
-        $this->session->set_userdata('username', $userData->username);
+        $this->session->set_userdata('userName', $userData->username);
 
         return TRUE; # Valid Login
     }

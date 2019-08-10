@@ -27,6 +27,11 @@
                     </div>
                 </form>
             </div>
+            <?php if (isset($message) && isset($type)): ?>
+                <div class="text-center p-3 alert alert-<?= $type; ?>">
+                    <p><?= $message; ?></p>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>
